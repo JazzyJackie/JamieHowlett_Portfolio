@@ -1,2 +1,0 @@
-﻿# as1-resit-JazzyJackie
-#Jamie Howlett UX Portfolio
