@@ -156,12 +156,12 @@ h1, h2, h3 { font-family: 'Manrope', sans-serif; line-height: 1.15; letter-spaci
 .award-photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: center; border-radius: 13px; }
 .award-photo figcaption { margin-top: 8px; color: var(--muted); font-size: .8rem; line-height: 1.45; }
 
-.contact-layout { max-width: 720px; padding-bottom: 90px; }
-.contact-aside { padding: 38px; border-radius: 20px; background: var(--ink); color: white; }
-.contact-aside h2 { margin: 12px 0 16px; font-size: 2rem; }
+.contact-layout { max-width: 900px; padding-bottom: 90px; }
+.contact-aside { min-height: 470px; padding: 58px 64px; border-radius: 24px; background: var(--ink); color: white; }
+.contact-aside h2 { margin: 14px 0 20px; font-size: clamp(2.2rem, 5vw, 3rem); }
 .contact-aside p { color: #c9cdd7; }
-.contact-links { margin-top: 34px; display: grid; gap: 12px; }
-.contact-links a { color: #fff; font-weight: 600; }
+.contact-links { margin-top: 44px; display: grid; gap: 16px; }
+.contact-links a { color: #fff; font-size: 1.08rem; font-weight: 600; }
 
 .video-frame { max-width: 900px; margin: 0 auto 90px; padding: 12px; border-radius: 20px; background: white; box-shadow: var(--shadow); }
 .video-frame iframe { width: 100%; aspect-ratio: 16/9; display: block; border: 0; border-radius: 12px; }
@@ -191,6 +191,7 @@ footer { padding: 28px 0; color: var(--muted); background: white; border-top: 1p
     .experience-meta { flex-direction: column; gap: 3px; }
     .section { padding: 64px 0; }
     .page-hero { padding: 56px 0 36px; }
+    .contact-aside { min-height: auto; padding: 38px 28px; }
     .footer-wrap { flex-direction: column; text-align: center; }
 }
 
